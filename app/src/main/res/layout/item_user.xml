@@ -25,7 +25,7 @@
         android:paddingRight="6dp"
         android:text="from " />
 
-    <TextView
+    <TextViewz
         android:id="@+id/tvHometown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
