@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/* This project tests the use of a custom ArrayAdapter from within a Fragment. */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
