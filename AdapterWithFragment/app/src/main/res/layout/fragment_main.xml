@@ -16,6 +16,7 @@
         android:text="Hello World!" />
         -->
 
+    <!-- Adding ListView here so that it's a part of the Fragment rather than the Activity -->
     <ListView
         android:id="@+id/lvUsers"
         android:layout_width="match_parent"
