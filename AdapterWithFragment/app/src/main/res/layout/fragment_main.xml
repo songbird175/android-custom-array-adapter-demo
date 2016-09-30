@@ -9,13 +9,6 @@
     tools:context="celina.adapterwithfragment.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <!--
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-        -->
-
     <!-- Adding ListView here so that it's a part of the Fragment rather than the Activity -->
     <ListView
         android:id="@+id/lvUsers"
