@@ -27,15 +27,13 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         ButterKnife.bind(this, view);
-        return view;
-    }
 
-    private void populateUsersList() {
-        // Construct the data source
         ArrayList<User> arrayOfUsers = User.getUsers();
         // Create the adapter to convert the array to views
         CustomUsersAdapter adapter = new CustomUsersAdapter(getContext(), arrayOfUsers);
         // Attach the adapter to a ListView
         listView.setAdapter(adapter);
+
+        return view;
     }
 }
